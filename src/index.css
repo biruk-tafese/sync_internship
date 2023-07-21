@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=FontName&display=swap');
+
+/* Rest of  CSS styles below */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Outfit'
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.6rem;
+
+}
+
+h1 {
+  font-size:6 rem;
+}
+
+.app {
+   width:100%;
+   height:110vh;
+   position:relative;
+   background-color: rgba(0,0,0,.4);
+   color: #fff;
+}
+
+.app:before {
+  content: "";
+  background: url('./images/sunset.jpg') no-repeat center center/cover;
+  position: absolute;
+  height:100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:-1;
+}
+
+.container {
+  max-width:700px;
+  height:70%;
+  margin:auto;
+  padding:0 1rem;
+  position:relative;
+  top:10%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .description {
+  position: relative;
+  right: -90%;
+  transform-origin:0 0;
+  transform: rotate(265deg);
+}
+
+.app .bottom {
+     display:flex;
+     justify-content: space-evenly;
+     text-align: center;
+     width:100%;
+     margin:1rem auto;
+     border-radius:12px;
+     background-color:rgba(255,255,255,.2);
+}
+
+.bold {
+  font-weight: 700px;
+}
