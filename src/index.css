@@ -45,6 +45,22 @@ h1 {
   z-index:-1;
 }
 
+.app .search {
+   text-align: center;
+   padding: 1rem;
+}
+
+.app input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,.8);
+  background: rgba(255,255,255,.1);
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
 .container {
   max-width:700px;
   height:70%;
@@ -64,9 +80,8 @@ h1 {
 
 .app .description {
   position: relative;
-  right: -90%;
+  right: -70%;
   transform-origin:0 0;
-  transform: rotate(265deg);
 }
 
 .app .bottom {
