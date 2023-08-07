@@ -1,0 +1,14 @@
+/* CSS */
+.nav {
+  height: 5rem;
+  background-color: rgb(31, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.heading {
+  color: white;
+  font-size: 3rem;
+}

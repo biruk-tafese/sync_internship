@@ -1,0 +1,11 @@
+
+  .button {
+    background-color: gray;
+    padding: 0.5rem;
+    width: 4rem;
+  }
+
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+
